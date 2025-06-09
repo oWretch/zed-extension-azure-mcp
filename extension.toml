@@ -1,4 +1,4 @@
-id = "azure"
+id = "azure-context-server"
 name = "Azure Context Server"
 description = "Model Context Server for Azure"
 version = "1.0.0"
@@ -6,5 +6,5 @@ schema_version = 1
 authors = ["Jerome Brown <Jerome@SoliDeoGloria.tech>"]
 repository = "https://github.com/oWretch/zed-extension-azure-mcp"
 
-[context_servers.azure]
+[context_servers.azure-context-server]
 name = "Azure Context Server"

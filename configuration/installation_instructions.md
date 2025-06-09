@@ -24,5 +24,15 @@ via RBAC (Role-Based Access Control).
 By default, the Azure MCP Server excludes production credentials like Managed
 Identity and Workload Identity. To enable these credentials, set the
 `enable_production_credentials` setting to `true` in your Zed `settings.json`.
-This is useful when running on Azure services where you want to use managed
-identities.
+
+```json
+{
+  "context_servers": {
+    "azure": {
+      "settings": {
+        "enable_production_credentials": true
+      }
+    }
+  }
+}
+```
